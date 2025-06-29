@@ -6,7 +6,7 @@ import { Presentation } from '../presentation';
 import AllProjects from '../projects/AllProjects';
 import Resume from '../resume';
 import Skills from '../skills';
-import Sports from '../sport';
+import Entrepreneurship from '../sport';
 
 interface ToolRendererProps {
   toolInvocations: any[];
@@ -65,10 +65,10 @@ export default function ToolRenderer({
               </div>
             );
 
-          case 'getSports':
+          case 'getEntrepreneurship':
             return (
               <div key={toolCallId} className="w-full rounded-lg">
-                <Sports />
+                <Entrepreneurship />
               </div>
             );
 

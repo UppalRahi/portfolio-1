@@ -3,37 +3,27 @@
 import React from 'react';
 import { Photos, PhotoItem } from './photos';
 
-const Sports = () => {
-  const sportPhotos: PhotoItem[] = [
+const Entrepreneurship = () => {
+  const entrepreneurshipPhotos: PhotoItem[] = [
     {
-      src: '/podium.jpg',
-      alt: 'On the podium after a mountain bike race',
-      caption: 'Celebrating a podium finish 3rd at the famous Roc d\'Azur',
+      src: '/traway-team.jpg',
+      alt: 'Traway team working on student travel platform',
+      caption: 'Building Traway - our student travel service that generated ₹1.7M revenue',
     },
     {
-      src: '/levens.JPG',
-      alt: 'Racing in Levens',
-      caption: 'Competing in the mountain bike world cup in Levens with some clean conditions ahah',
+      src: '/loud-kitchens.jpg',
+      alt: 'Food donation initiative',
+      caption: 'The Loud Kitchens - serving 500+ people through our food donation initiative',
     },
     {
-      src: '/marseille.JPG',
-      alt: 'Racing in Marseille',
-      caption: 'Pushing limits at the Marseille World cup',
+      src: '/hackathon-win.jpg',
+      alt: 'Winning internal hackathon',
+      caption: 'Celebrating the internal hackathon win with blog automation MVP at GrowthJockey',
     },
     {
-      src: '/transmo.JPG',
-      alt: 'Racing in the Transmaurienne',
-      caption: 'On the start line for the Transmaurienne Race in the french Alps',
-    },
-    {
-      src: '/ploeuc.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'French championship in Ploeuc',
-    },
-    {
-      src: '/gueret.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'World cup in Gueret',
+      src: '/data-dashboard.jpg',
+      alt: 'Working on business intelligence dashboard',
+      caption: 'Analyzing 4,500+ YC startups for business synergy insights at Varidus',
     }
   ];
 
@@ -41,17 +31,17 @@ const Sports = () => {
     <div className="mx-auto w-full">
       <div className="mb-8">
         <h2 className="text-foreground text-3xl font-semibold md:text-4xl">
-          My Sporting Career
+          My Entrepreneurship Journey
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Before focusing on development, I competed at a high level in mountain biking, 
-          reaching Top 15 in the Junior World Cup and Top 10 in French Cup. Here are some highlights from my 
-          athletic journey.
+          From co-founding startups during college to building data-driven solutions at hackathons, 
+          I've always been passionate about combining technical skills with business insight to create impact. 
+          Here are some highlights from my entrepreneurial journey.
         </p>
       </div>
-      <Photos photos={sportPhotos} />
+      <Photos photos={entrepreneurshipPhotos} />
     </div>
   );
 };
 
-export default Sports;
+export default Entrepreneurship;

@@ -13,40 +13,40 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Toukoum Portfolio",
-  description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
+  title: "Rahi Uppal Portfolio",
+  description: "Interactive portfolio with an AI-powered avatar that answers questions about me, my skills, and my experience as a Venture Architect",
   keywords: [
-    "Toukoum", 
+    "Rahi Uppal", 
     "Portfolio", 
-    "Developer", 
-    "AI", 
+    "Venture Architect", 
+    "Data Analytics", 
     "Interactive", 
-    "Memoji", 
-    "Web Development",
-    "Full Stack",
-    "Next.js",
-    "React"
+    "Avatar", 
+    "Business Intelligence",
+    "Python",
+    "Tableau",
+    "Entrepreneurship"
   ],
   authors: [
     {
-      name: "Toukoum",
-      url: "https://toukoum.fr",
+      name: "Rahi Uppal",
+      url: "https://linkedin.com/in/rahiuppal",
     },
   ],
-  creator: "Toukoum",
+  creator: "Rahi Uppal",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://toukoum.fr",
-    title: "Toukoum Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Toukoum Portfolio",
+    url: "https://rahiuppal.com",
+    title: "Rahi Uppal Portfolio",
+    description: "Interactive portfolio with an AI-powered avatar that answers questions about me, my skills, and my experience",
+    siteName: "Rahi Uppal Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Toukoum Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@toukoum",
+    title: "Rahi Uppal Portfolio",
+    description: "Interactive portfolio with an AI-powered avatar that answers questions about me, my skills, and my experience",
+    creator: "@rahiuppal",
   },
   icons: {
     icon: [
