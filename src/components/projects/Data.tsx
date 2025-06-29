@@ -145,26 +145,7 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
         </div>
       )}
 
-      {/* Images gallery */}
-      {projectData.images && projectData.images.length > 0 && (
-        <div className="space-y-6">
-          <div className="grid grid-cols-1 gap-4">
-            {projectData.images.map((image, index) => (
-              <div
-                key={index}
-                className="relative aspect-video overflow-hidden rounded-2xl"
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover transition-transform"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      {/* Images gallery section removed - no images defined yet */}
     </div>
   );
 };
