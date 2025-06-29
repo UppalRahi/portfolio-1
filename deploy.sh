@@ -14,8 +14,8 @@ fi
 # Check if we have the GitHub remote
 if ! git remote | grep -q "origin"; then
     echo "❌ No origin remote found. Please add your GitHub repository as origin."
-    echo "Run: git remote add origin https://github.com/uppalrahi/rahiuppal-portfolio.git"
-    echo "Replace 'uppalrahi' with your actual GitHub username if different."
+    echo "Run: git remote add origin https://github.com/UppalRahi/portfolio-1.git"
+    echo "Replace 'UppalRahi' with your actual GitHub username if different."
     exit 1
 fi
 
@@ -29,7 +29,7 @@ fi
 
 # Build the project
 echo "🔨 Building the project..."
-NEXT_PUBLIC_BASE_PATH=/rahiuppal-portfolio npm run build
+NEXT_PUBLIC_BASE_PATH=/portfolio-1 npm run build
 
 if [ $? -eq 0 ]; then
     echo "✅ Build successful!"
@@ -41,11 +41,11 @@ if [ $? -eq 0 ]; then
     echo "   git push origin main"
     echo ""
     echo "2. Enable GitHub Pages in your repository settings:"
-    echo "   - Go to https://github.com/uppalrahi/rahiuppal-portfolio/settings/pages"
+    echo "   - Go to https://github.com/UppalRahi/portfolio-1/settings/pages"
     echo "   - Set Source to 'GitHub Actions'"
     echo ""
     echo "3. Your portfolio will be available at:"
-    echo "   https://uppalrahi.github.io/rahiuppal-portfolio"
+    echo "   https://uppalrahi.github.io/portfolio-1"
     echo ""
     echo "🎉 Deployment script completed successfully!"
 else
