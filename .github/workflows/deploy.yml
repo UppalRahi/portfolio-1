@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: npm run build
       env:
-        NEXT_PUBLIC_BASE_PATH: /rahiuppal-portfolio
+        NEXT_PUBLIC_BASE_PATH: /portfolio-1
 
     - name: Add .nojekyll file
       run: touch ./out/.nojekyll
